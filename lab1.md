@@ -1,10 +1,13 @@
 c) #reading assignment -- response paragraphs
 
-d) #Linux -- screenshot
+d) #3:
+
 
 ![Screenshot](https://github.com/drochecsp2017/CSCI4966/blob/master/images/CSCI4966%20--%20lab1-d3.PNG)
 
-e) #regexes -- screenshots
+e) #2:
+
+![Screenshot](images/CSCI4966--lab1-e2.PNG)
 
 f) #add program? 
 
