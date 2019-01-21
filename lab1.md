@@ -1,4 +1,11 @@
-c) #reading assignment -- response paragraphs
+c) #2:
+
+One additional tip for providing useful answers is to *use simple and understandable language*; much fuss is given about not being vague when asking questions, but it's equally true when answering them. A repl no one else can read is a useless one.
+Another important tip is to *be specific*; telling someone to that they have a problem in a certain function, for instance, is much less helpful than pointing out the exact line causing the problem.
+
+#3:
+
+
 
 d) #3:
 
