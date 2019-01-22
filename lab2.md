@@ -4,4 +4,4 @@ part 2:
 
 https://github.com/drochecsp2017/Spoon-Knife
 
-![Screenshot](images/CSCI4966 -- lab2-part2.PNG)
+![Screenshot](images/CSCI4966--lab2-part2.PNG)
