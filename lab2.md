@@ -5,3 +5,8 @@ part 2:
 https://github.com/drochecsp2017/Spoon-Knife
 
 ![Screenshot](images/CSCI4966%20--%20lab2-part2.PNG)
+
+part 3:
+
+https://github.com/drochecsp2017/PullReq
+
