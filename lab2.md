@@ -11,4 +11,3 @@ part 3:
 PullReq fork: https://github.com/drochecsp2017/PullReq
 
 Table ideas fork: https://github.com/krishg4/ProjectIdeas2019/tree/Table8
-had trouble pushing back upstream, not sure I'm recognized as a contributor.
