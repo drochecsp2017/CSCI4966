@@ -2,7 +2,9 @@
 
 table 8: runelite, RushMe, RushMeiOS, Schedj, ScheduleThis
 
-## Schedj:
+## Section 3
+
+### Schedj:
 
 Contributors: 2
 
@@ -14,7 +16,7 @@ Latest Commit: 1/25/19
 
 Current Branches: master
 
-## RushMe:
+### RushMe:
 
 Contributors: 3
 
@@ -26,7 +28,7 @@ Latest Commit: 1/6/19
 
 Current Branches: Cam, Chat, ErrorSystem, NewLook, Notification, SaveFrats, calendar, chages-jim, favorites, linted-version and master
 
-## Runelite:
+### Runelite:
 
 Contributors: 14
 
@@ -38,7 +40,7 @@ Latest Commit: 1/29/19, 8 hours ago
 
 Current Branches: master
 
-## ScheduleThis
+### ScheduleThis
 
 Contributors: 1
 
@@ -50,7 +52,7 @@ Latest Commit: Tue Jan 22 02:30:48 2019
 
 Current Branches: Master
 
-## Second-String/FrontEnd-Express
+### Second-String/FrontEnd-Express
 
 Contributors: 3
 
@@ -61,3 +63,19 @@ First Commit: Tue Oct 23 18:35:40 2018
 Last Commit: Fri Jan 25 16:26:45 2019 
 
 Current Branches: 3: master, nick-statsheet, gfvandehei-homepage
+
+## Section 7
+
+### Schedj:
+
+`gitstats` results:
+
+Authors: 1 (average 24.0 commits per author)
+
+Total Lines of Code: 13565 (13685 added, 120 removed)
+
+Report Period: 2019-01-18 19:29:43 to 2019-01-25 16:40:54
+
+Age: 7 days, 5 active days (71.43%)
+
+Current Branches: master
