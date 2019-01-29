@@ -39,15 +39,25 @@ Latest Commit: 1/29/19, 8 hours ago
 Current Branches: master
 
 ## ScheduleThis
-	- contributors: 1
-	- total lines: 732
-	- first commit: Thu Jan 17 17:04:18 2019 
-	- latest commit: Tue Jan 22 02:30:48 2019 
-	- current branches: 1. Master
+
+Contributors: 1
+
+Lines: 732
+
+First Commit: Thu Jan 17 17:04:18 2019 
+
+Latest Commit: Tue Jan 22 02:30:48 2019 
+
+Current Branches: Master
 
 ## Second-String/FrontEnd-Express
-	- contributors: 3
-	- total lines: 9768
-	- first commit: Tue Oct 23 18:35:40 2018 
-	- last commit: Fri Jan 25 16:26:45 2019 
-	- current branches: 3: master, nick-statsheet, gfvandehei-homepage
+
+Contributors: 3
+
+Total lines: 9768
+
+First Commit: Tue Oct 23 18:35:40 2018 
+
+Last Commit: Fri Jan 25 16:26:45 2019 
+
+Current Branches: 3: master, nick-statsheet, gfvandehei-homepage
