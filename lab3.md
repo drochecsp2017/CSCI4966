@@ -79,3 +79,7 @@ Report Period: 2019-01-18 19:29:43 to 2019-01-25 16:40:54
 Age: 7 days, 5 active days (71.43%)
 
 Current Branches: master
+
+*Comments*: `gitstats` found only one contributor and a slightly smaller number of lines of code.
+Uncertain of why this is, though the former discrepancy could just be that the RCOS page (my source) uses a more generous definition of "contributor".
+Likewise, the slight differences in the number of lines of code could just amount to the different ways of counting lines used by `gitstats` and the `git ls-files -z | xargs -0 wc -l` command.
