@@ -134,3 +134,13 @@ FrontEnd Gource Map: ![lab3_frontend.jpg](https://github.com/krishg4/Open-Source
 ScheduleThis Gource Map: ![lab3_schs.jpg](https://github.com/krishg4/Open-Source-Lab-Work/tree/master/Labs/Lab3/lab3_schs.jpg)
 
 RushMe Gource Map: ![lab3_rush.jpg](https://github.com/krishg4/Open-Source-Lab-Work/tree/master/Labs/Lab3/lab3_rush.jpg)
+
+# Part 2
+Output: 
+
+``root@DESKTOP-1O100B3:/mnt/c/Users/roched/Documents/csci4966# python test_markdown_unittest.py
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.250s
+
+OK``
