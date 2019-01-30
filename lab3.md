@@ -1,3 +1,7 @@
+# Part 0
+
+https://github.com/drochecsp2017/CSCI4966/wiki/Lab-3-%E2%80%94-Part-0
+
 # Part 1
 
 table 8: runelite, RushMe, RushMeiOS, Schedj, ScheduleThis
