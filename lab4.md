@@ -36,6 +36,14 @@ For this course, I'd like to get to work on a project that could help students m
 
 # 10 — RCOS License Table
 
+Website | License Present | License
+---------|:----------|:-------
+https://github.com/Tiecoon/B7 | Yes | BSD 2-Clause "Simplified" License
+https://github.com/apexal/late | Yes | MIT License
+https://github.com/justinchen673/catan-ai | Yes | MIT License
+https://github.com/kool814/clickbaitchromeextension | Yes | MIT License
+https://github.com/opencircuits/opencircuits | Yes | BSD 3-Clause "New" or "Revised" License
 
+# License
 
 This work is licensed under a http://creativecommons.org/licenses/by/4.0/ Creative Commons Attribution 4.0 International License.
