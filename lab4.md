@@ -8,7 +8,7 @@ One should avoid using software that does not have an explicit license attached 
 
 # 4 — Reading Opinions
 
-
+I agree with the author's argument in the article. Many elements of Gopher, from its name to its origin point, almost seemed to conspire to put it in a disadvantageous position until it finally lost currency with the public. The creators of the web were simply better at marketing their protocol and gaining widespread acceptance.
 
 # 5 — Justify License
 
