@@ -12,9 +12,11 @@ I agree with the author's argument in the article. Many elements of Gopher, from
 
 # 5 — Justify License
 
+Linux uses a GPL license because it is a subset of the GNU project, whose goal is to provide an operating system using entirely free software ([source](http://www.gnu.org/gnu/about-gnu.html)). Given this, it makes sense that Linux would use a license created by the free software foundation to guarantee that a piece of software remains free.
 
 # 6 — Group License
 
+Our group is using the MIT License, because it is widely used and fairly popular.
 
 # 7 — License Advantages
 
