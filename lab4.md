@@ -4,8 +4,10 @@ It is important to choose a license because otherwise other users may not know w
 
 # 3 — Why Note Use Project w/o License
 
+One should avoid using software that does not have an explicit license attached because the original owner may attach a license to it at any time without informing you; therefore, you may accidentally end up violating the license without knowing. This produces a significant degree of risk and introduces another unknown variable into your project, which is highly undesireable. 
 
 # 4 — Reading Opinions
+
 
 
 # 5 — Justify License
