@@ -49,14 +49,18 @@ The square root of 10 is 3.16228
 ## Step 2
 
 
-```root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step2/build# make
+```
+root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step2# cmake -S /root/lab5/cmake/Tests/Tutorial/Step2/ -B build
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/lab5/cmake/Tests/Tutorial/Step2/build
+root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step2# cd build
+root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step2/build# make
 [ 50%] Built target MathFunctions
 Scanning dependencies of target Tutorial
 [ 75%] Building CXX object CMakeFiles/Tutorial.dir/tutorial.cxx.o
 [100%] Linking CXX executable Tutorial
 [100%] Built target Tutorial
-root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step2/build# l
-build/  CMakeCache.txt  CMakeFiles/  cmake_install.cmake  Makefile  MathFunctions/  Tutorial*  TutorialConfig.h
 root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step2/build# ./Tutorial
 ./Tutorial Version 1.1
 Usage: ./Tutorial number
