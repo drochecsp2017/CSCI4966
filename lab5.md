@@ -42,4 +42,33 @@ Usage: ./Tutorial number
 root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step1/build# ./Tutorial 4294967296
 The square root of 4.29497e+09 is 65536
 root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step1/build# ./Tutorial 10
-The square root of 10 is 3.16228```
+The square root of 10 is 3.16228
+
+```````````
+
+## Step 2
+
+
+```root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step2/build# make
+[ 50%] Built target MathFunctions
+Scanning dependencies of target Tutorial
+[ 75%] Building CXX object CMakeFiles/Tutorial.dir/tutorial.cxx.o
+[100%] Linking CXX executable Tutorial
+[100%] Built target Tutorial
+root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step2/build# l
+build/  CMakeCache.txt  CMakeFiles/  cmake_install.cmake  Makefile  MathFunctions/  Tutorial*  TutorialConfig.h
+root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step2/build# ./Tutorial
+./Tutorial Version 1.1
+Usage: ./Tutorial number
+root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step2/build# ./Tutorial 44
+Computing sqrt of 44 to be 22.5
+Computing sqrt of 44 to be 12.2278
+Computing sqrt of 44 to be 7.91307
+Computing sqrt of 44 to be 6.73675
+Computing sqrt of 44 to be 6.63404
+Computing sqrt of 44 to be 6.63325
+Computing sqrt of 44 to be 6.63325
+Computing sqrt of 44 to be 6.63325
+Computing sqrt of 44 to be 6.63325
+Computing sqrt of 44 to be 6.63325
+The square root of 44 is 6.63325```
