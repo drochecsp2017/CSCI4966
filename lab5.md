@@ -194,3 +194,59 @@ Test project /root/lab5/cmake/Tests/Tutorial/Step4/build
 
 Total Tests: 5
 ```
+
+## Step 5 
+```
+root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step5/MathFunctions# cmake -S ~/lab5/cmake/Tests/Tutorial/Step5/MathFunctions/ -B ./build/
+CMake Warning (dev) in CMakeLists.txt:
+  No cmake_minimum_required command is present.  A line of code such as
+
+    cmake_minimum_required(VERSION 3.13)
+
+  should be added at the top of the file.  The version specified may be lower
+  if you wish to support older CMake versions for this project.  For more
+  information run "cmake --help-policy CMP0000".
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/lab5/cmake/Tests/Tutorial/Step5/MathFunctions/build
+root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step5/MathFunctions# cd build/ && make
+Scanning dependencies of target MathFunctions
+[ 50%] Building CXX object CMakeFiles/MathFunctions.dir/mysqrt.o
+[100%] Linking CXX static library libMathFunctions.a
+[100%] Built target MathFunctions
+root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step5/MathFunctions/build# cd .. && cd ..
+root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step5# cmake -S ~/lab5/cmake/Tests/Tutorial/Step5/ -B ./build/
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/lab5/cmake/Tests/Tutorial/Step5/build
+root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step5# cd build/ && make
+Scanning dependencies of target MathFunctions
+[ 25%] Building CXX object MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o
+[ 50%] Linking CXX static library libMathFunctions.a
+[ 50%] Built target MathFunctions
+Scanning dependencies of target Tutorial
+[ 75%] Building CXX object CMakeFiles/Tutorial.dir/tutorial.cxx.o
+[100%] Linking CXX executable Tutorial
+[100%] Built target Tutorial
+root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step5/build# Tutorial
+Tutorial Version 1.1
+Usage: Tutorial number
+root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step5/build# Tutorial 24
+Computing sqrt of 24 to be 12.5
+Computing sqrt of 24 to be 7.21
+Computing sqrt of 24 to be 5.26936
+Computing sqrt of 24 to be 4.912
+Computing sqrt of 24 to be 4.899
+Computing sqrt of 24 to be 4.89898
+Computing sqrt of 24 to be 4.89898
+Computing sqrt of 24 to be 4.89898
+Computing sqrt of 24 to be 4.89898
+Computing sqrt of 24 to be 4.89898
+The square root of 24 is 4.89898
+```
+
+# Part 2
+
+placeholder
