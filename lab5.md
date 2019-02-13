@@ -75,4 +75,35 @@ Computing sqrt of 44 to be 6.63325
 Computing sqrt of 44 to be 6.63325
 Computing sqrt of 44 to be 6.63325
 Computing sqrt of 44 to be 6.63325
-The square root of 44 is 6.63325```
+The square root of 44 is 6.63325
+```
+
+## Step 3
+```
+root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step3# cmake -S ~/lab5/cmake/Tests/Tutorial/Step3/ -B ./build/
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/lab5/cmake/Tests/Tutorial/Step3/build
+root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step3# cd build/
+root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step3/build# make
+[ 50%] Built target MathFunctions
+Scanning dependencies of target Tutorial
+[ 75%] Building CXX object CMakeFiles/Tutorial.dir/tutorial.cxx.o
+[100%] Linking CXX executable Tutorial
+[100%] Built target Tutorial
+root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step3/build# ./Tutorial
+./Tutorial Version 1.1
+Usage: ./Tutorial number
+root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step3/build# ./Tutorial 4
+Computing sqrt of 4 to be 2.5
+Computing sqrt of 4 to be 2.05
+Computing sqrt of 4 to be 2.00061
+Computing sqrt of 4 to be 2
+Computing sqrt of 4 to be 2
+Computing sqrt of 4 to be 2
+Computing sqrt of 4 to be 2
+Computing sqrt of 4 to be 2
+Computing sqrt of 4 to be 2
+Computing sqrt of 4 to be 2
+The square root of 4 is 2
+```
