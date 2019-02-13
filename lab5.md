@@ -107,3 +107,90 @@ Computing sqrt of 4 to be 2
 Computing sqrt of 4 to be 2
 The square root of 4 is 2
 ```
+
+## Step 4
+```
+root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step4# cmake -S ~/lab5/cmake/Tests/Tutorial/Step4/ -B ./build/
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/lab5/cmake/Tests/Tutorial/Step4/build
+root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step4# cd build/
+root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step4/build# make
+Scanning dependencies of target MathFunctions
+[ 25%] Building CXX object MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o
+[ 50%] Linking CXX static library libMathFunctions.a
+[ 50%] Built target MathFunctions
+Scanning dependencies of target Tutorial
+[ 75%] Building CXX object CMakeFiles/Tutorial.dir/tutorial.cxx.o
+[100%] Linking CXX executable Tutorial
+[100%] Built target Tutorial
+root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step4/build# make install
+[ 50%] Built target MathFunctions
+[100%] Built target Tutorial
+Install the project...
+-- Install configuration: ""
+-- Installing: /usr/local/bin/Tutorial
+-- Installing: /usr/local/include/TutorialConfig.h
+-- Installing: /usr/local/bin/libMathFunctions.a
+-- Installing: /usr/local/include/MathFunctions.h
+root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step4/build# ./Tutorial 25
+Computing sqrt of 25 to be 13
+Computing sqrt of 25 to be 7.46154
+Computing sqrt of 25 to be 5.40603
+Computing sqrt of 25 to be 5.01525
+Computing sqrt of 25 to be 5.00002
+Computing sqrt of 25 to be 5
+Computing sqrt of 25 to be 5
+Computing sqrt of 25 to be 5
+Computing sqrt of 25 to be 5
+Computing sqrt of 25 to be 5
+The square root of 25 is 5
+root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step4/build# cd ..
+root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step4# nano CMakeLists.txt
+root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step4# cmake -S ~/lab5/cmake/Tests/Tutorial/Step4/ -B ./build/
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/lab5/cmake/Tests/Tutorial/Step4/build
+root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step4# cd build
+root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step4/build# make
+[ 50%] Built target MathFunctions
+[100%] Built target Tutorial
+root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step4/build# ./Tutorial
+./Tutorial Version 1.1
+Usage: ./Tutorial number
+root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step4/build# ./Tutorial 20
+Computing sqrt of 20 to be 10.5
+Computing sqrt of 20 to be 6.20238
+Computing sqrt of 20 to be 4.71347
+Computing sqrt of 20 to be 4.47831
+Computing sqrt of 20 to be 4.47214
+Computing sqrt of 20 to be 4.47214
+Computing sqrt of 20 to be 4.47214
+Computing sqrt of 20 to be 4.47214
+Computing sqrt of 20 to be 4.47214
+Computing sqrt of 20 to be 4.47214
+The square root of 20 is 4.47214
+root@DESKTOP-1O100B3:~/lab5/cmake/Tests/Tutorial/Step4/build# ctest -N
+Test project /root/lab5/cmake/Tests/Tutorial/Step4/build
+  Test #1: Runs
+  Test #2: Usage
+  Test #3: Comp25
+  Test #4: Comp-25
+  Test #5: Comp0.0001
+
+Total Tests: 5
+```
