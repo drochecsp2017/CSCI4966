@@ -1,7 +1,7 @@
 
 # Part 1
 
-`
+```
 root@DESKTOP-1O100B3:/mnt/c/Users/roched/Documents/csci4966/lab6# python ladder.py
 Loaded words_dat.txt containing 5757 five-letter English words.
 Two words are connected if they differ in one letter.
@@ -52,14 +52,14 @@ sears
 stars
 start
 smart
-`
+```
 
 
 # Part 2
 
 Function generate_graph() was kept unchanged, and is thus ommitted for the sake of brevity.
 
-`
+```
 def words_graph():
     """Return the words example graph from the Stanford GraphBase"""
     fh = gzip.open('words4_dat.txt.gz', 'r')
@@ -90,12 +90,12 @@ if __name__ == '__main__':
                 print(n)
         except nx.NetworkXNoPath:
             print("None")
-`
+```
 
 
 # Part 3
 
-`
+```
 Loaded words_dat.txt containing 5757 five-letter English words.
 Two words are connected if they differ in one letter.
 Graph has 2174 nodes with 8040 edges
@@ -111,14 +111,14 @@ love
 hove
 have
 hate
-`
+```
 
 
 # Part 4
 
-All other functions remain identical to the original.
+The modified `generate_graph()` is listed below; all other functions remain identical to the original.
 
-`
+```
 def generate_graph(words):
     G = nx.Graph(name="words")
     lookup = dict((c, lowercase.index(c)) for c in lowercase)
@@ -140,11 +140,11 @@ def generate_graph(words):
         G.add_edge(word, cand)
     
     return G
-`
+```
 
 # Part 5
-Your results for the 4 five letter pairs using the unordered implementation
-`
+The results for the 4 five letter unordered pairs are here:
+```
 root@DESKTOP-1O100B3:/mnt/c/Users/roched/Documents/csci4966/lab6# python unordered_ladder.py
 Loaded words_dat.txt containing 5757 five-letter English words.
 Two words are connected if they differ in one letter.
@@ -175,4 +175,4 @@ moron
 moors
 morts
 smart
-`
+```
